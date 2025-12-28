@@ -326,17 +326,6 @@
   }
 }
 
-/* Поддержка темной темы (опционально) */
-@media (prefers-color-scheme: dark) {
-  .welcome__container {
-    background-color: #2a2a2a; /* Темный вариант фона */
-  }
-
-  .welcome__image-container {
-    background: #3a3a3a; /* Темный фон для контейнера изображения */
-  }
-}
-
 /* ===== SECTION / BACKGROUND ===== */
 .card {
   display: flex;
