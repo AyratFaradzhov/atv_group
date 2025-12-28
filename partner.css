@@ -1,108 +1,158 @@
+/* ===== SECTION ===== */
 .partners {
-  padding: clamp(20px, 5vw, 40px);
+  padding: clamp(24px, 5vw, 64px);
 }
 
+/* ===== TITLE BLOCK ===== */
 .partners__title-container {
-  display: flex;
-  font-size: var(--base-size);
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) 2fr;
+  gap: clamp(24px, 5vw, 80px);
+
   color: var(--text-color);
 }
 
+/* ===== TITLE ===== */
 .partners__title {
-  min-block-size: 154px;
-  font-weight: 300;
-  text-wrap: wrap;
-  inline-size: clamp(302px, -4vw, 200px);
   font-size: var(--title-hero-size);
+  font-weight: 300;
+  line-height: 1.1;
+
+  max-inline-size: 22ch;
 }
 
+/* ===== SUBTITLE ===== */
 .partners__subtitle {
-  inline-size: 1014px;
-  text-align: left;
-  white-space: pre-line;
+  font-size: var(--base-size);
+  line-height: 1.5;
+
+  max-inline-size: 70ch;
   align-self: center;
-  text-wrap: wrap;
+
+  white-space: pre-line;
 }
 
+/* ===== PARTNERS GRID ===== */
 .partners__list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 40px 80px;
-  padding-block: 72px 40px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: clamp(24px, 4vw, 80px);
+
+  padding-block: clamp(40px, 6vw, 80px);
 }
 
+/* ===== ITEM ===== */
 .partners-item {
+  display: flex;
 }
 
+/* ===== CARD ===== */
 .partners-border {
   display: grid;
   place-items: center;
-  background: white;
-  inline-size: 400px;
-  block-size: 270px;
-  border-radius: 50px;
+
+  inline-size: 100%;
+  aspect-ratio: 4 / 3;
+
+  background-color: #ffffff;
+  border-radius: clamp(24px, 4vw, 50px);
+
+  padding: clamp(20px, 4vw, 40px);
 }
 
+/* ===== IMAGE ===== */
 .partner__image {
-  object-fit: cover;
-  width: 80%;
-  height: auto;
-  aspect-ratio: 315 / 100;
+  max-inline-size: 80%;
+  max-block-size: 80%;
+
+  object-fit: contain;
 }
 
+/* ===== LINK ===== */
 .link-about__cooperation {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
+/* ===== BUTTON ===== */
 .btn-about__cooperation {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
   align-items: center;
-  gap: 16px;
-  width: 322px;
-  height: 61px;
-  color: var(--element-color);
-  border-radius: 32px;
-  background-color: var(--accent-color);
-}
+  justify-content: center;
 
-.btn-about__cooperation:hover {
+  gap: 16px;
+
+  padding-inline: clamp(24px, 4vw, 48px);
+  padding-block: clamp(14px, 2.5vw, 18px);
+
+  border-radius: 999px;
+  background-color: var(--accent-color);
+
+  color: var(--element-color);
+  font-size: var(--base-size);
+
   position: relative;
 }
 
+.btn-about__cooperation:hover {
+  transform: translateY(-9px);
+  transition: transform 0.3s ease;
+}
+
+/* ===== HOVER DECOR ===== */
 .btn-about__cooperation:hover::before {
   content: "";
   position: absolute;
-  top: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
-  left: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
-  width: clamp(70px, 8vw, 94px); /* Резиновый размер */
-  height: clamp(75px, 9vw, 101px); /* Резиновый размер */
+
+  top: clamp(-32px, -4vw, -48px);
+  left: clamp(-32px, -4vw, -48px);
+
+  width: clamp(64px, 8vw, 96px);
+  height: clamp(64px, 8vw, 96px);
+
   background-image: url("/images/candy-hover.svg");
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
+
   pointer-events: none;
-  z-index: 1;
 }
 
-.text-about__cooperation {
-}
-
-.pagination__arrow:nth-child(2) {
+/* ===== ARROW ===== */
+.pagination__arrow {
+  font-size: 1.2em;
   color: var(--element-color);
 }
 
+/* ===== TABLET ===== */
 @media (max-width: 1024px) {
   .partners__title-container {
-    gap: 100px;
-    background-color: 900px;
+    grid-template-columns: 1fr;
+    gap: clamp(24px, 4vw, 40px);
   }
+
+  .link-about__cooperation {
+    justify-content: center;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .partners__title {
+    max-inline-size: none;
+  }
+
   .partners__subtitle {
-    inline-size: 800px;
+    max-inline-size: none;
   }
+
+  .partners-border {
+    aspect-ratio: 1 / 1;
+  }
+}
+
+@media (min-width: 1440px) {
   .partners__list {
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

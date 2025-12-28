@@ -1,38 +1,5 @@
 /* ===== ПЛАНШЕТНАЯ ВЕРСИЯ (768px - 1024px) ===== */
 @media (max-width: 1024px) {
-  /* Общие исправления */
-  .welcome,
-  .card {
-    padding-inline: 20px;
-  }
-
-  .product__button {
-    width: 240px;
-    block-size: 35px;
-    bottom: 60px;
-    left: 110px;
-  }
-
-  /* HEADER адаптация */
-  .header__container {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .header__nav {
-    order: 3;
-    width: 100%;
-  }
-
-  .header__list {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 106px;
-  }
-
-  /* WELCOME секция адаптация */
-
-  /* CARD (карусель) адаптация */
   .card {
     flex-direction: column;
     block-size: auto;
@@ -115,21 +82,6 @@
 
 /* ===== МЕЛКИЕ ПЛАНШЕТЫ (до 768px) ===== */
 @media (max-width: 768px) {
-  .welcome__title {
-    font-size: calc(var(--title-hero-size) * 0.7);
-    margin-block: 30px 0px;
-  }
-
-  .welcome__text {
-    font-size: calc(var(--subtitle-size) * 0.8);
-  }
-
-  .welcome__subtext-first,
-  .welcome__subtext-second {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
   .card {
     min-height: 750px;
     padding-inline: 15px;
@@ -164,24 +116,6 @@
 
 /* ===== ДОПОЛНИТЕЛЬНО ДЛЯ ГОРИЗОНТАЛЬНЫХ ПЛАНШЕТОВ (1024px и больше) ===== */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .welcome {
-    flex-direction: row;
-    gap: 30px;
-  }
-
-  .welcome__container {
-    max-inline-size: 45%;
-  }
-
-  .welcome__about {
-    inline-size: 50%;
-  }
-
-  .welcome__img {
-    min-width: 100%;
-    height: 300px;
-  }
-
   .card__candy-item {
     flex-direction: row;
     flex-wrap: wrap;

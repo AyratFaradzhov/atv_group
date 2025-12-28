@@ -168,7 +168,7 @@
   z-index: 1;
 }
 
-.btn-about__cooperation:hover::before {
+.btn-about-cooperation:hover {
   content: "";
   position: absolute;
   top: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
