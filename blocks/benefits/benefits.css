@@ -3,7 +3,7 @@
 
 /* ===== SECTION CONTAINER ===== */
 .atv-value__container {
-  background-image: url("/assets/images/benefit/benefits-background.webp");
+  background-image: url("../../assets/images/benefit/benefits-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -28,7 +28,7 @@
 }
 
 .categories__section {
-  background-image: url("/assets/images/categories/background-categories.png");
+  background-image: url("../../assets/images/categories/background-categories.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -69,6 +69,14 @@ img.categories__list-image.candy-image-crop {
   object-fit: cover;
   justify-items: end;
   align-items: end;
+}
+
+.categories__list-image.chocolate__image-crop {
+  object-position: 100% 77%;
+}
+
+.categories__list-image.jelly__image-crop {
+  object-position: 100% 77%;
 }
 
 .categories__list-image {

@@ -78,5 +78,10 @@
   "benefit_promo_support": "Промо календарь",
   "benefit_high_margin": "> 50% маржи \nпри конкурентной \nцене для покупателя",
   "benefit_price_segments": "Ценовые \nсегменты\nLOW & MIDLLE",
-  "footer__subtitle": "Новостная рассылка"
+  "footer__subtitle": "Новостная рассылка",
+  "send-newsendler": "Подписаться",
+  "checkbox-text": "Нажимая на кнопку Вы соглашаетесь на обработку персональных данных ",
+  "social-list-marketplace": "Маркетплейсы:",
+  "social-list-web": "Социальные сети",
+  "social-list-timework": "Режим работы:"
 }

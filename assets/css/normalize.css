@@ -10,10 +10,11 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+.body {
   margin: 0 auto;
   background-color: var(--background-color);
   font-family: var(--base-font);
+  overflow-x: hidden;
 }
 
 img,

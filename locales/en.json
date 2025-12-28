@@ -1,28 +1,116 @@
 {
   "products": "Products",
-  "about": "About",
+  "about": "About the Company",
   "contacts": "Contacts",
-  "price": "Price list",
-  "collaboration": "Collaboration",
+  "price": "Price List",
+  "collaboration": "Partnership",
   "logo_text": "ATV GROUP",
-  "welcome__text": "Official distributor of international manufacturers.",
-  "welcome__subtext-first": "A world of sweets gathered in one place.\nOver 300 items in stock.",
-  "welcome__subtext-second": "We carefully select vibrant sweets from all over the world and turn them into a ready-made assortment for retail stores. Our products delight children, enhance store displays, and help businesses sell easily and with pleasure.",
+
+  "welcome__text": "Official representative\nof international factories.",
+  "welcome__subtext-first": "A world of sweets gathered in one place\nMore than 300 products available.",
+  "welcome__subtext-second": "We carefully collect colorful sweets from all over the world and turn them\ninto a ready-made assortment for stores. Our sweets delight children,\ndecorate shelves, and help businesses sell easily and with pleasure.",
+
   "popular": "Popular Products",
+
   "card__popular-item": "SULIFA TWIN",
-  "corn_tubes_milk_cream_filling": "Corn Tubes with Milk-Cream Filling",
-  "corn_tubes_milk_cream_filling_text": "Popular crispy treat TWIN tubes - an excellent choice for a snack at work or on the go. The light texture makes the sticks pleasant to taste and easily digestible. The soft and airy filling will delight with its bright taste.",
+  "corn_tubes_milk_cream_filling": "Corn sticks with milk cream filling",
+  "corn_tubes_milk_cream_filling_text": "Crispy TWIN corn sticks are a great choice for a snack at work or on the go.\nTheir light texture makes them easy to enjoy and digest.\nSoft and airy filling delights with its rich flavor.",
+
   "card__popular-item-panda": "PANDA LEE",
-  "Glazed Wafer Sticks 'PYRAMID'": "Glazed Wafer Sticks 'PYRAMID'",
-  "Glazed Wafer Sticks 'PYRAMID'_filling_text": "Pyramid sticks have a maximum simple and understandable composition. The tenderness of flavors and bright design make these crispy pyramids especially attractive. They are convenient to take with you or give to a child for a school snack.",
+  "Glazed Wafer Sticks 'PYRAMID'": "Glazed wafer sticks “PYRAMID”",
+  "Glazed Wafer Sticks 'PYRAMID'_filling_text": "The pyramids have a simple and clear composition. Delicate flavors and bright design make these crispy pyramids especially attractive. Convenient to take on the go or give to a child for a school snack.",
   "Glazed Wafer Sticks 'PYRAMID'_filling_text-second": "Affordability is the main advantage of our product.",
+
   "card__popular-item-damla-lenta": "DAMLA",
-  "Damla Assorti tubes": "Sour Gummy Tubes, Assortment, 30g Package",
-  "Damla Assorti tubes_filling_text": "Combine a variety of flavors: tropical, raspberry, blackberry, strawberry, apple. These gummies will make any sweet tooth fall into gummy euphoria. The variety of gummy flavors allows satisfying the appetite of any sweets connoisseur. Each color corresponds to its own flavor of chewy gummies. The product is sprinkled with sweet and sour powder, which harmoniously complements other constituent ingredients and creates a bright, pleasant taste impression.",
-  "Chewy Gummy Bears Assortment 80g": "Chewy Gummy Bears 'BEARS' Assortment 80g",
-  "Chewy Gummy Bears Assortment 80g_filling_text": "The bears have a subtle, refreshing sourness and original flavors: apple, cherry, strawberry, lemon, orange, apple, raspberry, grape, black currant, cola. The funny DAMLA GAMMY figures in a cheerful color scheme - it's hard to resist such aromatic charm!",
-  "Chewy Gummy Bears Assortment 80g_filling_text-second": "The composition of gummy bears is natural. Carefully selected ingredients and manufacturing recipe have been constantly improved by the factory over the past 65 years.",
-  "sour_gummy_straps_15g": "Sour Gummy Straps 15g - Assorted Flavors",
-  "sour_gummy_straps_15g_filling_text": "The structure of the gummy strap is light, and the soft base of the straps makes them an excellent dessert. The sour coating gives a pleasant flavor accent to the strawberry gummy, forever conquering the hearts of gourmet sweet tooths. This gummy is an absolute sales hit.",
-  "sour_gummy_straps_15g_filling_text-second": "Gummy straps are made from natural components, as they contain natural juice, will delight both adults and children with their taste."
+  "Damla Assorti tubes": "Sour gummy tubes assortment, 30 g pack",
+  "Damla Assorti tubes_filling_text": "A mix of tropical, raspberry, blackberry, strawberry and apple flavors. These gummies plunge any sweet lover into a gummy euphoria. Each color has its own flavor. Coated with sweet-and-sour powder for a bright taste experience.",
+
+  "Chewy Gummy Bears Assortment 80g": "Chewy gummy bears assortment, 80 g",
+  "Chewy Gummy Bears Assortment 80g_filling_text": "Refreshing sour notes with flavors of apple, cherry, strawberry, lemon, orange, raspberry, grape, blackcurrant and cola. Fun DAMLA GUMMY figures in bright colors are impossible to resist!",
+  "Chewy Gummy Bears Assortment 80g_filling_text-second": "Natural ingredients and a recipe perfected by the factory for over 65 years.",
+
+  "sour_gummy_straps_15g": "Sour gummy straps assortment, 15 g",
+  "sour_gummy_straps_15g_filling_text": "Light gummy texture with a soft base. Sour coating adds a pleasant taste to strawberry marmalade, making it a true bestseller.",
+  "sour_gummy_straps_15g_filling_text-second": "Made from natural ingredients with real juice, loved by both adults and children.",
+
+  "card__popular-item-Damla Sour 90gr": "Chewy sour candy assortment, 90 g",
+  "card__popular-item-Damla Sour 90gr_filling_text": "DAMLA SOUR is an assortment of fruit-flavored candies with a sour powder filling. Soft, chewy texture that doesn’t stick to teeth and gradually раскрывает fruit flavors.",
+  "card__popular-item-Damla Sour 90gr_filling_text-second": "Packaging format: bag with euro slot, convenient for checkout zones and shelves.",
+
+  "Jimmy belts": "Sour gummy belts assortment, 75 g",
+  "Jimmy belts_filling_text": "Perfect for a small snack. Tropical, raspberry, blackberry, strawberry and apple flavors. Coated with sweet-and-sour powder. Made with natural juice.",
+  "Jimmy chocolate": "Milk chocolate with milk filling, 20 g",
+  "Jimmy chocolate_filling_text": "Milk chocolate JIMMY MILKY with delicate milk filling. Convenient format and low calories. An affordable alternative on the market.",
+  "Jimmy belts_filling_text-second": "Affordability is the main advantage of our product.",
+
+  "Crispy delight, creamy heart": "Biscuit sticks with hazelnut cream, 52 g",
+  "Crispy delight, creamy heart_filling_text": "The perfect snack combining crispy biscuit sticks and light chocolate-hazelnut cream. Contains natural hazelnut paste.",
+  "Crispy delight, creamy heart_filling_text-second": "Lower price than competitors, with superior taste in comparative tastings.",
+
+  "Jimmy pencil 75gr": "Sour gummy pencils assortment, 75 g",
+  "Jimmy pencil 75gr_filling_text": "Colorful pencil-shaped gummies with filling. Balanced sweetness with fruity flavors and a pleasant sour note.",
+
+  "Kidzi_klubnika": "Extra sour lokum candies assortment",
+  "Kidzi_klubnika_filling_text": "Soft chewy cubes inspired by Turkish lokum traditions. EXTRA sour gummies delight sweet lovers of all ages.",
+  "Kidzi_klubnika_filling_text-second": "Affordability is the main advantage of our product.",
+
+  "Miskets_Sour-cubes": "Sour lokum cubes in crispy glaze assortment",
+  "Miskets_Sour-cubes_filling_text": "Soft chewy cubes with Turkish lokum texture and EXTRA sour taste.",
+  "Miskets_Sour-cubes_filling_text-second": "Affordability is the main advantage of our product.",
+
+  "Dubai-cake": "Dubai-style sponge cake, 40 g",
+  "Dubai-cake_filling_text": "ARRIVO Dubai cake combines biscuit base, pistachios, crispy kataifi and pistachio cream, topped with chocolate. A perfect balance of textures and flavors.",
+
+  "Coffee-İntense-90gr": "Coffee-flavored candies, 90 g",
+  "Coffee-İntense-90gr_filling_text": "Coffee Intense candies deliver a rich Turkish coffee taste with cream. Individually wrapped, convenient for travel.",
+
+  "card__popular-item-jimmy": "JIMMY",
+  "card__popular-kidzi": "KIDZI",
+  "card__popular-miskets": "MISKETS",
+  "card__popular-dubai-cake": "OSLO",
+  "card__popular-coffee": "TAYAS",
+
+  "Partners-title": "Our Partners",
+  "partners-subtitle": "Over 25 years of successful work, we have earned the trust of more than 25,000 clients, including industry leaders:",
+
+  "about__cooperation": "About Partnership",
+
+  "Marmalade": "Marmalade",
+  "Marmalade-subtext": "Chewy, sour and sweet, jelly, shaped",
+
+  "candy": "Candies",
+  "candy-subtext": "With and without filling, gift sets",
+
+  "caramel": "Caramel",
+  "caramel-subtext": "Soft, hard candy, chocolate",
+
+  "Chocolate_chocolate paste": "Chocolate and chocolate spread",
+  "Chocolate_chocolate paste-subtext": "With milk and cookies",
+
+  "Cookies-marshmallows": "Cookies, cakes, wafers and marshmallows",
+  "Cookies-marshmallows-subtext": "A variety of shapes and flavors",
+
+  "Jelly desserts": "Jelly Desserts",
+  "Jelly desserts-subtext": "A variety of shapes and flavors",
+
+  "categories__title": "Product Categories",
+  "categories__subtitle": "Factory products offer a wide selection of confectionery, natural marmalade in various flavors and shapes. Certified IFS, HALAL, EAC.",
+
+  "atv-value__title": "Benefits of Partnership",
+
+  "benefit_worldwide_quality": "Global quality standards and modern recipes",
+  "benefit_flexible_packaging": "Flexible and optimal packaging options",
+  "benefit_stable_demand": "Stable demand and high ratings",
+  "benefit_shelf_life": "Shelf life 18–24 months",
+  "benefit_promo_support": "Promotional support calendar",
+  "benefit_high_margin": "Over 50% margin with competitive pricing",
+  "benefit_price_segments": "Price segments LOW & MIDDLE",
+
+  "footer__subtitle": "Newsletter",
+  "send-newsendler": "Subscribe",
+  "checkbox-text": "By clicking the button, you agree to the processing of personal data",
+
+  "social-list-marketplace": "Marketplaces:",
+  "social-list-web": "Social networks",
+  "social-list-timework": "Working hours:"
 }
