@@ -161,7 +161,7 @@
   left: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
   width: clamp(70px, 8vw, 94px); /* Резиновый размер */
   height: clamp(75px, 9vw, 101px); /* Резиновый размер */
-  background-image: url("/images/candy-hover.svg");
+  background-image: url("../images/candy-hover.svg");
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -175,7 +175,7 @@
   left: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
   width: clamp(70px, 8vw, 94px); /* Резиновый размер */
   height: clamp(75px, 9vw, 101px); /* Резиновый размер */
-  background-image: url("/images/candy-hover.svg");
+  background-image: url("../images/candy-hover.svg");
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -351,89 +351,89 @@
 
 /* Фоны */
 .card.bg-1 {
-  background: url("/assets/images/Sulifa Moloko 18gr/SulifaMoloko_Coffee__background.webp");
+  background: url("../assets/images/Sulifa Moloko 18gr/SulifaMoloko_Coffee__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 75%;
   background-size: cover;
 }
 .card.bg-2 {
-  background: url("/assets/images/Piramida Choco 20gr/Piramida-Choco__background.webp");
+  background: url("../assets/images/Piramida Choco 20gr/Piramida-Choco__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 80%;
   background-size: cover;
 }
 .card.bg-3 {
-  background: url("/assets/images/Damla Assorti 30gr/DamalAssorti__background.webp");
+  background: url("../assets/images/Damla Assorti 30gr/DamalAssorti__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 30%;
   background-size: cover;
 }
 .card.bg-4 {
-  background: url("/assets/images/Damla Bears ( Mishki ) 80gr/DamlaBearsCoffee__background.webp");
+  background: url("../assets/images/Damla Bears ( Mishki ) 80gr/DamlaBearsCoffee__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 10%;
   background-size: cover;
 }
 .card.bg-5 {
-  background: url("/assets/images/Damla Klubnika 15gr/DamlaKlubnika__background.webp");
+  background: url("../assets/images/Damla Klubnika 15gr/DamlaKlubnika__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 55%;
   background-size: cover;
 }
 .card.bg-6 {
-  background: url("/assets/images/Damla Sour 90gr/DamlaSour__background.webp");
+  background: url("../assets/images/Damla Sour 90gr/DamlaSour__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 45%;
   background-size: cover;
 }
 .card.bg-7 {
-  background: url("/assets/images/Jimmy belts 75gr/Jimmybelts__background.webp");
+  background: url("../assets/images/Jimmy belts 75gr/Jimmybelts__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 24%;
   background-size: cover;
 }
 .card.bg-8 {
-  background: url("/assets/images/Jimmy chocolate 20gr/JimmyChocolate__background.webp");
+  background: url("../assets/images/Jimmy chocolate 20gr/JimmyChocolate__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 34%;
   background-size: cover;
 }
 .card.bg-9 {
-  background: url("/assets/images/Jimmy pasta 52gr/Jimmypasta__background.webp");
+  background: url("../assets/images/Jimmy pasta 52gr/Jimmypasta__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 85%;
   background-size: cover;
 }
 .card.bg-10 {
-  background: url("/assets/images/Jimmy pencil 75gr/jimmy_pencil-background.webp");
+  background: url("../assets/images/Jimmy pencil 75gr/jimmy_pencil-background.webp");
   background-repeat: no-repeat;
   background-position: 0% 25%;
   background-size: cover;
 }
 
 .card.bg-11 {
-  background: url("/assets/images/Kidzi Klubnika/kidzi_klubnika__background.webp");
+  background: url("../assets/images/Kidzi Klubnika/kidzi_klubnika__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 25%;
   background-size: cover;
 }
 
 .card.bg-12 {
-  background: url("/assets/images/Miskets Sour Cubes/Miskets Sour Cubes__background.webp");
+  background: url("../assets/images/Miskets Sour Cubes/Miskets Sour Cubes__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 25%;
   background-size: cover;
 }
 
 .card.bg-13 {
-  background: url("/assets/images/BS0001 Dubai cake/Dubai-cake__background.webp");
+  background: url("../assets/images/BS0001 Dubai cake/Dubai-cake__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 25%;
   background-size: cover;
 }
 
 .card.bg-14 {
-  background: url("/assets/images/Coffee İntense 90gr/Coffee-intense__background.webp");
+  background: url("../assets/images/Coffee İntense 90gr/Coffee-intense__background.webp");
   background-repeat: no-repeat;
   background-position: 0% 25%;
   background-size: cover;
