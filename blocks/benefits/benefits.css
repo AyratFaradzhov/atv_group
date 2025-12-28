@@ -41,9 +41,76 @@
   border-radius: clamp(24px, 4vw, 50px);
 
   padding-block: clamp(24px, 4vw, 40px);
-
+  cursor: pointer;
   display: flex;
   align-items: center;
+}
+
+.atv-value__item {
+  position: relative;
+  overflow: hidden;
+}
+
+.atv-value__item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../../assets/images/benefit/worldwide-standart.webp");
+  background-size: cover;
+  background-position: center;
+
+  filter: blur(10px);
+  transform: scale(1.1);
+  opacity: 0;
+
+  transition: opacity 0.4s ease; /* ✅ ТУТ */
+}
+
+.atv-value__item:nth-child(2):before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/benefit/optimal_background.webp");
+  background-position: 50% 30%;
+}
+
+.atv-value__item:nth-child(3):before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/benefit/stable__background.webp");
+  background-position: 50% 80%;
+}
+
+.atv-value__item:nth-child(4):before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/benefit/safe_background.webp");
+  background-position: 50% 100%;
+}
+
+.atv-value__item:nth-child(5):before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/benefit/promo-calendar.webp");
+  background-position: 20% 20%;
+}
+
+.atv-value__item:nth-child(6):before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/benefit/marg_background.webp");
+  background-position: 50% 30%;
+}
+
+.atv-value__item:nth-child(7):before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/benefit/segments_backround.webp");
+  background-position: 50% 30%;
+}
+
+.atv-value__item:hover::before {
+  opacity: 1;
 }
 
 /* ===== ITEM INNER CONTAINER ===== */
@@ -64,6 +131,7 @@
 
   object-fit: cover;
   flex-shrink: 0;
+  z-index: 2;
 }
 
 /* ===== ITEM TEXT ===== */
@@ -71,7 +139,7 @@
   font-size: clamp(16px, 2.2vw, 20px);
   font-weight: 500;
   color: var(--text-color);
-
+  z-index: 2;
   line-height: 1.3;
 }
 
