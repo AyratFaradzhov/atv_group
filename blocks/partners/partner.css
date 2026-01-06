@@ -72,11 +72,20 @@
   place-items: center;
 
   inline-size: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 3;
 
   background-color: #ffffff;
   border-radius: clamp(24px, 4vw, 50px);
 
+  padding: clamp(20px, 4vw, 40px);
+}
+
+.partners-border {
+  display: grid;
+  place-items: center;
+  inline-size: 100%;
+  background-color: #ffffff;
+  border-radius: clamp(24px, 4vw, 50px);
   padding: clamp(20px, 4vw, 40px);
 }
 

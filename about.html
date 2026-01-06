@@ -72,7 +72,7 @@
         </div>
         <div class="cooperation-intro__paragraph">
           <p class="cooperation-intro__text" data-i18n="about-text"></p>
-          <p class="cooperation-intro__text" data-i18n="about-text"></p>
+          <p class="cooperation-intro__text" data-i18n="about-text-2"></p>
           <p class="cooperation-intro__text" data-i18n="about-text-3"></p>
         </div>
       </section>
@@ -301,9 +301,188 @@
           </li>
         </ul>
       </section>
-    </main>
+
+      <section class="cooperation__panels">
+  <div class="cooperation__tabs">
+    <button
+      type="button"
+      class="cooperation__tab cooperation__tab--active"
+      data-i18n="cooperation_tab_partner"
+    ></button>
+
+    <button
+      type="button"
+      class="cooperation__tab"
+      data-i18n="cooperation_tab_manufacturer"
+    ></button>
+  </div>
+
+  <!-- PARTNER -->
+  <div class="cooperation__panel cooperation__panel--active">
+    <h2 class="cooperation__title" data-i18n="cooperation_title_partner"></h2>
+    <p
+      class="cooperation__subtitle"
+      data-i18n="cooperation_subtitle_partner"
+    ></p>
+
+    <form class="partner-form">
+      <input
+        class="partner-form__input"
+        type="text"
+        name="partner_fullname"
+        placeholder="ФИО"
+      />
+
+      <input
+        class="partner-form__input"
+        type="tel"
+        name="partner_phone"
+        placeholder="Номер телефона"
+      />
+
+      <input
+        class="partner-form__input"
+        type="email"
+        name="partner_email"
+        placeholder="Почта"
+      />
+
+      <textarea
+        class="partner-form__textarea"
+        name="partner_message"
+        placeholder="Ваше сообщение (не обязательно)"
+      ></textarea>
+
+      <button
+        class="partner-form__submit"
+        type="submit"
+        data-i18n="partner_button_submit"
+      ></button>
+
+      <label class="partner-form__policy">
+        <input type="checkbox" checked />
+        <span data-i18n="partner_policy_text"></span>
+      </label>
+    </form>
+  </div>
+
+  <!-- MANUFACTURER -->
+  <div class="cooperation__panel">
+    <h2
+      class="cooperation__title"
+      data-i18n="cooperation_title_manufacturer"
+    ></h2>
+
+    <p
+      class="cooperation__subtitle"
+      data-i18n="cooperation_subtitle_manufacturer"
+    ></p>
+
+    <form class="manufacturer-form">
+      <input
+        class="manufacturer-form__input"
+        type="text"
+        name="manufacturer_company"
+        placeholder="Название компании"
+      />
+
+      <input
+        class="manufacturer-form__input"
+        type="text"
+        name="manufacturer_contact"
+        placeholder="Контактное лицо"
+      />
+
+      <input
+        class="manufacturer-form__input"
+        type="tel"
+        name="manufacturer_phone"
+        placeholder="Телефон"
+      />
+
+      <input
+        class="manufacturer-form__input"
+        type="email"
+        name="manufacturer_email"
+        placeholder="Почта"
+      />
+
+      <textarea
+        class="manufacturer-form__textarea"
+        name="manufacturer_message"
+        placeholder="Кратко опишите предложение"
+      ></textarea>
+
+      <button
+        class="manufacturer-form__submit"
+        type="submit"
+        data-i18n="manufacturer_button_submit"
+      ></button>
+
+      <label class="manufacturer-form__policy">
+        <input type="checkbox" checked />
+        <span data-i18n="manufacturer_policy_text"></span>
+      </label>
+    </form>
+  </div>
+</section>
+
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title" data-i18n="logo_text"></h1>
+        <div class="footer_news-sendler">
+          <h3 class="footer__subtitle" data-i18n="footer__subtitle"></h3>
+          <div class="footer__form-container">
+          <form class="footer__form" id="footerForm">
+              <input
+              type="text"
+              class="footer__input"
+              id="footerName"
+              placeholder="Имя"
+              required/>
+              <input
+              type="email"
+              class="footer__input"
+              id="footerEmail"
+              placeholder="почта"
+              required
+              />
+              <button type="submit" class="footer__submit" data-i18n="send-newsendler"></button>
+              <div class="checkbox-container">
+                <input type="checkbox" class="checkbox"> <p class="checkbox-text" data-i18n="checkbox-text"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <ul class="social-list">
+          <li class="social-list__item"><div class="social-list-container"> <h4 class="social-list-title" data-i18n="contacts"></h4>
+          <a href="tel:+7958582140">+7 958 582 14 09</a> 
+        <a href="mailto:info@atv-group.ru">info@atv-group.ru</a>
+        </div></li>
+        <li class="social-list__item"><div class="social-list-container"> <h4 class="social-list-title" data-i18n="social-list-web"></h4>
+<div class="icons-container">
+          <a href="https://www.instagram.com/group_atv?igsh=MTMydjh2amZpYWtt" class="marketplace"><img src="images/icons/instagram-icons.webp" alt="ссылка на наш инстаграм" class="marketplace-icons"></a> 
+          <a href="https://t.me/atv_groupp" class="marketplace"><img src="images/icons/telegram-logo.webp" alt="ссылка на наш телеграм-канал" class="marketplace-icons"></a>  
+        </div></li>
+        <li class="social-list__item"><div class="social-list-container"> <h4 class="social-list-title" data-i18n="social-list-timework"></h4>
+          <p class="worktime">
+  Режим работы: <time datetime="09:00">9:00</time>–<time datetime="22:00">22:00</time>
+</p>
+
+        </div></li>
+        <li class="social-list__item"><div class="social-list-container"> <h4 class="social-list-title" data-i18n="social-list-marketplace"></h4>
+          <div class="icons-container">
+          <a href="https://www.ozon.ru/seller/atv-group-2083402/produkty-pitaniya-9200/?__rr=1&abt_att=1&origin_referer=www.google.com" class="marketplace"><img src="images/icons/ozon-icon.webp" alt="ссылка на озон" class="marketplace-icons ozon-icon"></a> 
+          <a href="https://market.yandex.ru/cc/8Nzfeu" class="marketplace"><img src="images/icons/Yandex-icon.webp" alt="ссылка на Яндекс-маркет" class="marketplace-icons"></a> 
+          <a href="https://www.wildberries.ru/seller/410710" class="marketplace"><img src="images/icons/wildberries-icon.webp" alt="ссылка на wildberries" class="marketplace-icons"></a>         
+        </div></li>
+        </ul>
+      </div>
+    </footer>
     <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"></script>
     <script src="assets/js/i18n.js"></script>
     <script src="assets/js/form.js"></script>
+    <script src="assets/js/holder.js"></script>
   </body>
 </html>

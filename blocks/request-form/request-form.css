@@ -1,0 +1,134 @@
+.cooperation {
+  padding: clamp(32px, 5vw, 80px);
+  background: linear-gradient(135deg, #fff7ec, #fde1d6);
+  border-radius: 24px;
+}
+
+/* =====================
+   TABS
+===================== */
+
+.cooperation__tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #fff;
+  border-radius: 999px;
+  padding: 6px;
+  margin-bottom: 32px;
+}
+
+.cooperation__tab {
+  padding: 14px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  padding-inline: clamp(24px, 2.8vw, 40px);
+  padding-block: clamp(20px, 2.1vw, 30px);
+  transition: background-color 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.35s cubic-bezier(var(--accent-color), 0, 0.2, 1),
+    transform 0.35s cubic-bezier(var(--hover-color), 0, 0.2, 1);
+  font-size: var(--subtitle-size);
+  font-weight: 500;
+}
+
+.cooperation__tab--active {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+/* =====================
+   PANELS (KEY PART)
+===================== */
+
+/* ❌ display: none — УБРАНО */
+.cooperation__panel {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+
+  transform: translateY(24px);
+  pointer-events: none;
+
+  transition: max-height 0.6s ease, opacity 0.4s ease, transform 0.4s ease;
+
+  will-change: max-height, opacity, transform;
+}
+
+.cooperation__panel--active {
+  max-height: 1400px; /* под высоту формы */
+  opacity: 1;
+
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* =====================
+   TEXT
+===================== */
+
+.cooperation__title {
+  text-align: center;
+  color: var(--accent-color);
+  font-size: var(--subtitle-size);
+  font-weight: 300;
+}
+
+.cooperation__subtitle {
+  text-align: center;
+  margin: 8px 0 32px;
+  color: var(--accent-color);
+  font-size: var(--min-base-size);
+}
+
+/* =====================
+   FORMS
+===================== */
+
+.partner-form,
+.manufacturer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.partner-form__input,
+.manufacturer-form__input,
+.partner-form__textarea,
+.manufacturer-form__textarea {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+}
+
+.partner-form__textarea,
+.manufacturer-form__textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.partner-form__submit,
+.manufacturer-form__submit {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  background: #c62828;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* =====================
+   POLICY
+===================== */
+
+.partner-form__policy,
+.manufacturer-form__policy {
+  display: flex;
+  gap: 8px;
+  font-size: 13px;
+  color: #c62828;
+}
