@@ -8,6 +8,58 @@
   padding-bottom: clamp(40px, 6vw, 80px);
 }
 
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: clamp(24px, 4vw, 80px);
+  padding-block: clamp(40px, 6vw, 80px);
+  list-style: none;
+  margin: 0;
+  padding-inline: 0;
+}
+
+/* ===== PARTNER CARD (li) ===== */
+.partners-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  aspect-ratio: 4 / 2.7; /* 400 × 270 как в Figma */
+
+  background-color: #ffffff;
+  border-radius: clamp(24px, 4vw, 50px);
+
+  padding: clamp(24px, 5vw, 48px);
+}
+
+/* ===== IMAGE ===== */
+.partner__image {
+  display: block;
+
+  max-width: 100%;
+  max-height: 100%;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .partners-item {
+    aspect-ratio: 1 / 1;
+  }
+}
+
+/* ===== LARGE SCREENS ===== */
+@media (min-width: 1440px) {
+  .partners__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .partners__title-container__about {
   display: flex;
   justify-content: center;
@@ -49,44 +101,6 @@
   align-self: center;
 
   white-space: pre-line;
-}
-
-/* ===== PARTNERS GRID ===== */
-.partners__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-
-  gap: clamp(24px, 4vw, 80px);
-
-  padding-block: clamp(40px, 6vw, 80px);
-}
-
-/* ===== ITEM ===== */
-.partners-item {
-  display: flex;
-}
-
-/* ===== CARD ===== */
-.partners-border {
-  display: grid;
-  place-items: center;
-
-  inline-size: 100%;
-  aspect-ratio: 4 / 2.7;
-  background-color: #ffffff;
-  border-radius: clamp(24px, 4vw, 50px);
-
-  padding: clamp(20px, 4vw, 40px);
-}
-
-/* ===== IMAGE ===== */
-.partner__image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  max-inline-size: 50%;
-  max-block-size: 50%;
-  object-fit: contain;
 }
 
 /* ===== LINK ===== */
@@ -153,26 +167,5 @@
 
   .link-about__cooperation {
     justify-content: center;
-  }
-}
-
-/* ===== MOBILE ===== */
-@media (max-width: 768px) {
-  .partners__title {
-    max-inline-size: none;
-  }
-
-  .partners__subtitle {
-    max-inline-size: none;
-  }
-
-  .partners-border {
-    aspect-ratio: 1 / 1;
-  }
-}
-
-@media (min-width: 1440px) {
-  .partners__list {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
