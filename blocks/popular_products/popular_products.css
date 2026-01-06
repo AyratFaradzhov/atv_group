@@ -1,6 +1,7 @@
 .card {
   margin-block-start: 99px;
   padding-inline: 40px;
+  margin-inline: 40px;
 }
 
 .card__container {

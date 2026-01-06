@@ -46,6 +46,14 @@
   object-fit: contain;
 }
 
+.partner__image.lenta-image-crop {
+  clip-path: inset(50px 0 50px 0);
+}
+
+.partner__image.metro-image-crop {
+  clip-path: inset(40px 0 40px 0);
+}
+
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
   .partners-item {

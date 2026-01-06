@@ -544,7 +544,7 @@ ul li:nth-child(14) .card__description {
 .pagination {
   grid-area: "pagination"; /* Помещаем в область "pagination" */
   justify-self: start;
-  left: 81%;
+  left: 79%;
   margin-block-end: 55px;
   justify-content: start; /* Центрируем по горизонтали */
   align-self: flex-end; /* Прижимаем к низу своей области */

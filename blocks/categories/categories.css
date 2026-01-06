@@ -39,6 +39,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 61px 111px;
+  padding-inline: clamp(24px, 5vw, 48px);
 }
 
 .categories__list-item {
@@ -99,11 +100,27 @@ img.categories__list-image.candy-image-crop {
 
 .categories__list-subtext {
   padding-block-start: 8px;
+  padding-inline: 40px;
   min-block-size: 87px;
   font-size: var(--base-size);
   font-weight: 300;
   justify-content: center;
   text-align: center;
+}
+
+.categories__list-image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  transition: transform 0.35s ease;
+  transform-origin: center;
+  will-change: transform;
+}
+
+.categories__list-container:hover .categories__list-image {
+  cursor: pointer;
+  transform: scale(1.09);
 }
 
 @media (max-width: 1024px) {

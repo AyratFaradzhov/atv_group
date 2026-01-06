@@ -70,29 +70,163 @@
             class="cooperation-intro__video"
           ></video>
         </div>
-        <div class="cooperation-intro__paragraph">
-          <p class="cooperation-intro__text" data-i18n="about-text"></p>
-          <p class="cooperation-intro__text" data-i18n="about-text-2"></p>
-          <p class="cooperation-intro__text" data-i18n="about-text-3"></p>
+        <div class="cooperation__welcome-container">
+          <div class="cooperation__welcome-image">
+            <img
+              src="../../assets/images/about/welcome-about.webp"
+              alt="изображение продукции АТВ ГРУПП"
+              class="cooperation__welcome-img"
+            />
+          </div>
+          <div class="cooperation-intro__paragraph">
+            <p class="cooperation-intro__text" data-i18n="about-text"></p>
+            <p class="cooperation-intro__text" data-i18n="about-text-2"></p>
+            <p class="cooperation-intro__text" data-i18n="about-text-3"></p>
+          </div>
         </div>
       </section>
+
+      <section class="cooperation__panels">
+  <div class="cooperation__tabs">
+    <button
+      type="button"
+      class="cooperation__tab cooperation__tab--active"
+      data-i18n="cooperation_tab_partner"
+    ></button>
+
+    <button
+      type="button"
+      class="cooperation__tab"
+      data-i18n="cooperation_tab_manufacturer"
+    ></button>
+  </div>
+
+  <!-- PARTNER -->
+  <div class="cooperation__panel cooperation__panel--active">
+    <h2 class="cooperation__title" data-i18n="cooperation_title_partner"></h2>
+    <p
+      class="cooperation__subtitle"
+      data-i18n="cooperation_subtitle_partner"
+    ></p>
+
+    <form class="partner-form">
+      <input
+        class="partner-form__input"
+        type="text"
+        name="partner_fullname"
+        placeholder="ФИО"
+      />
+
+      <input
+        class="partner-form__input"
+        type="tel"
+        name="partner_phone"
+        placeholder="Номер телефона"
+      />
+
+      <input
+        class="partner-form__input"
+        type="email"
+        name="partner_email"
+        placeholder="Почта"
+      />
+
+      <textarea
+        class="partner-form__textarea"
+        name="partner_message"
+        placeholder="Ваше сообщение (не обязательно)"
+      ></textarea>
+
+      <button
+        class="partner-form__submit"
+        type="submit"
+        data-i18n="partner_button_submit"
+      ></button>
+
+      <label class="partner-form__policy">
+        <input type="checkbox" checked />
+        <span data-i18n="partner_policy_text"></span>
+      </label>
+    </form>
+  </div>
+  <div class="cooperation__panel">
+    <h2
+      class="cooperation__title"
+      data-i18n="cooperation_title_manufacturer"
+    ></h2>
+
+    <p
+      class="cooperation__subtitle"
+      data-i18n="cooperation_subtitle_manufacturer"
+    ></p>
+
+    <form class="manufacturer-form">
+      <input
+        class="manufacturer-form__input"
+        type="text"
+        name="manufacturer_company"
+        placeholder="Название компании"
+      />
+
+      <input
+        class="manufacturer-form__input"
+        type="text"
+        name="manufacturer_contact"
+        placeholder="Контактное лицо"
+      />
+
+      <input
+        class="manufacturer-form__input"
+        type="tel"
+        name="manufacturer_phone"
+        placeholder="Телефон"
+      />
+
+      <input
+        class="manufacturer-form__input"
+        type="email"
+        name="manufacturer_email"
+        placeholder="Почта"
+      />
+
+      <textarea
+        class="manufacturer-form__textarea"
+        name="manufacturer_message"
+        placeholder="Кратко опишите предложение"
+      ></textarea>
+
+      <button
+        class="manufacturer-form__submit"
+        type="submit"
+        data-i18n="manufacturer_button_submit"
+      ></button>
+
+      <label class="manufacturer-form__policy">
+        <input type="checkbox" checked />
+        <span data-i18n="manufacturer_policy_text"></span>
+      </label>
+    </form>
+  </div>
+</section>
       <section class="padding-top-bottom partners">
-          <h2
-            class="partners__title-about"
-            data-i18n="Partners-title-about"
-          ></h2>
-          <img
-            src="images/icons/car-icon.png"
-            alt="иконка машинки с логотипом АТВ ГРУПП"
-            class="car-icon"
-          />
+    <div class="partners__title-container__about">
+      <h2
+      class="partners__title-about"
+      data-i18n="Partners-title-about"
+      ></h2>
+      <img
+      src="images/icons/car-icon.png"
+      alt="иконка машинки с логотипом АТВ ГРУПП"
+      class="car-icon"
+      />
+    </div>
         <ul class="partners__list">
           <li class="partners-item">
               <img
                 loading="lazy"
                 src="assets/images/partner/lenta.jpg"
                 alt="лента"
-                class="partner__image"
+                class="partner__image lenta-image-crop"
               />
           </li>
           <li class="partners-item">
@@ -124,7 +258,7 @@
                 loading="lazy"
                 src="assets/images/partner/metro.png"
                 alt="метро"
-                class="partner__image"
+                class="partner__image metro-image-crop"
               />
           </li>
           <li class="partners-item">
@@ -257,131 +391,7 @@
           </li>
         </ul>
       </section>
-
-      <section class="cooperation__panels">
-  <div class="cooperation__tabs">
-    <button
-      type="button"
-      class="cooperation__tab cooperation__tab--active"
-      data-i18n="cooperation_tab_partner"
-    ></button>
-
-    <button
-      type="button"
-      class="cooperation__tab"
-      data-i18n="cooperation_tab_manufacturer"
-    ></button>
-  </div>
-
-  <!-- PARTNER -->
-  <div class="cooperation__panel cooperation__panel--active">
-    <h2 class="cooperation__title" data-i18n="cooperation_title_partner"></h2>
-    <p
-      class="cooperation__subtitle"
-      data-i18n="cooperation_subtitle_partner"
-    ></p>
-
-    <form class="partner-form">
-      <input
-        class="partner-form__input"
-        type="text"
-        name="partner_fullname"
-        placeholder="ФИО"
-      />
-
-      <input
-        class="partner-form__input"
-        type="tel"
-        name="partner_phone"
-        placeholder="Номер телефона"
-      />
-
-      <input
-        class="partner-form__input"
-        type="email"
-        name="partner_email"
-        placeholder="Почта"
-      />
-
-      <textarea
-        class="partner-form__textarea"
-        name="partner_message"
-        placeholder="Ваше сообщение (не обязательно)"
-      ></textarea>
-
-      <button
-        class="partner-form__submit"
-        type="submit"
-        data-i18n="partner_button_submit"
-      ></button>
-
-      <label class="partner-form__policy">
-        <input type="checkbox" checked />
-        <span data-i18n="partner_policy_text"></span>
-      </label>
-    </form>
-  </div>
-
-  <!-- MANUFACTURER -->
-  <div class="cooperation__panel">
-    <h2
-      class="cooperation__title"
-      data-i18n="cooperation_title_manufacturer"
-    ></h2>
-
-    <p
-      class="cooperation__subtitle"
-      data-i18n="cooperation_subtitle_manufacturer"
-    ></p>
-
-    <form class="manufacturer-form">
-      <input
-        class="manufacturer-form__input"
-        type="text"
-        name="manufacturer_company"
-        placeholder="Название компании"
-      />
-
-      <input
-        class="manufacturer-form__input"
-        type="text"
-        name="manufacturer_contact"
-        placeholder="Контактное лицо"
-      />
-
-      <input
-        class="manufacturer-form__input"
-        type="tel"
-        name="manufacturer_phone"
-        placeholder="Телефон"
-      />
-
-      <input
-        class="manufacturer-form__input"
-        type="email"
-        name="manufacturer_email"
-        placeholder="Почта"
-      />
-
-      <textarea
-        class="manufacturer-form__textarea"
-        name="manufacturer_message"
-        placeholder="Кратко опишите предложение"
-      ></textarea>
-
-      <button
-        class="manufacturer-form__submit"
-        type="submit"
-        data-i18n="manufacturer_button_submit"
-      ></button>
-
-      <label class="manufacturer-form__policy">
-        <input type="checkbox" checked />
-        <span data-i18n="manufacturer_policy_text"></span>
-      </label>
-    </form>
-  </div>
-</section>
+</main>
     <footer class="footer">
       <div class="footer__container container">
         <h1 class="footer__title" data-i18n="logo_text"></h1>

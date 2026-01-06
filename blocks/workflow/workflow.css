@@ -2,7 +2,7 @@
 .contacts-hero {
   position: relative;
   min-height: 100vh;
-  background-image: url("../../images/background/contact_background.png");
+  background-image: url("../../images/background/contact_background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20% 5%;

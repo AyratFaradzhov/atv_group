@@ -44,24 +44,22 @@
 
 /* ❌ display: none — УБРАНО */
 .cooperation__panel {
-  max-height: 0;
+  display: none;
+  background-image: url("../../images/background/partner_background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 70%;
+  border-radius: 30px;
+  padding: 72px 100px;
   opacity: 0;
-  overflow: hidden;
-
   transform: translateY(24px);
-  pointer-events: none;
-
-  transition: max-height 0.6s ease, opacity 0.4s ease, transform 0.4s ease;
-
-  will-change: max-height, opacity, transform;
+  transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 .cooperation__panel--active {
-  max-height: 1400px; /* под высоту формы */
+  display: block;
   opacity: 1;
-
   transform: translateY(0);
-  pointer-events: auto;
 }
 
 /* =====================
