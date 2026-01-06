@@ -1,6 +1,18 @@
 /* ===== SECTION ===== */
-.partners {
+.padding-section {
   padding: clamp(24px, 5vw, 64px);
+}
+
+.padding-top-bottom {
+  padding-top: clamp(40px, 6vw, 80px);
+  padding-bottom: clamp(40px, 6vw, 80px);
+}
+
+.partners__title-container__about {
+  display: flex;
+  justify-content: center;
+  color: var(--text-color);
+  font-size: var(--title-hero-size);
 }
 
 /* ===== TITLE BLOCK ===== */
@@ -8,8 +20,15 @@
   display: grid;
   grid-template-columns: minmax(260px, 1fr) 2fr;
   gap: clamp(24px, 5vw, 80px);
-
   color: var(--text-color);
+}
+
+.partners__title-about {
+  font-size: var(--title-hero-size);
+  font-weight: 300;
+  line-height: 1.1;
+  align-self: center;
+  max-inline-size: 22ch;
 }
 
 /* ===== TITLE ===== */

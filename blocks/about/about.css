@@ -1,0 +1,111 @@
+.page-about {
+  color: var(--accent-color);
+  padding-inline: clamp(16px, 3vw, 40px);
+}
+
+.cooperation-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cooperation-intro__title {
+  font-weight: 500;
+  font-size: var(--title-hero-size);
+  line-height: 100%;
+  color: var(--accent-color);
+  padding-block: 40px;
+}
+
+.cooperation-intro__container {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.container {
+}
+
+.cooperation-intro__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 60% 130%;
+  border: transparent;
+  border-radius: 40px;
+}
+
+.cooperation-intro__paragraph {
+  padding: 40px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-image: url("../../assets/images/benefit/benefits-background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 90%;
+  border-radius: 30px;
+}
+
+.car-icon {
+  width: 134px;
+  height: 134px;
+  object-fit: cover;
+}
+
+.cooperation-intro__text {
+}
+
+.partners {
+}
+
+.partners__title-container {
+}
+
+.partners__title {
+}
+
+.partners__list {
+}
+
+.partners-item {
+}
+
+.partners-border {
+}
+
+.partner__image {
+}
+.cooperation-intro__container {
+}
+
+.container {
+}
+
+.cooperation-intro__video {
+}
+
+.cooperation-intro__text {
+}
+
+.partners {
+}
+
+.partners__title-container {
+}
+
+.partners__title {
+}
+
+.partners__list {
+}
+
+.partners-item {
+}
+
+.partners-border {
+}
+
+.partner__image {
+}
