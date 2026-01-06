@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATV GROUP</title>
+
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/fonts/font.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="header__container container">
+        <a href="index.html">
+          <img
+            class="header__logo"
+            src="assets/images/logo.png"
+            alt="ATV GROUP логотип"
+          />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                href="product.html"
+                class="header__link"
+                data-i18n="products"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a href="about.html" class="header__link" data-i18n="about"></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="collaboration.html"
+                class="header__link"
+                data-i18n="collaboration"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="contacts.html"
+                class="header__link"
+                data-i18n="contacts"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="request-price.html" class="header__button">
+          <span class="price-list" data-i18n="price"></span>
+        </a>
+
+        <button class="header__lang-switch" id="langSwitch" type="button">
+          RU
+        </button>
+      </div>
+    </header>
+    <main class="main page-contacts">
+      <section class="contacts-hero">
+        <div class="contacts-hero__overlay">
+          <div class="contacts-glass">
+            <h2 class="contacts-glass__title" data-i18n="contacts_title"></h2>
+
+            <div class="contacts-glass__links">
+              <p class="contacts-glass__phone" data-i18n="contacts_phone"></p>
+              <p class="contacts-glass__email" data-i18n="contacts_email"></p>
+            </div>
+
+            <div class="contacts-glass__addresses">
+              <p data-i18n="contacts_legal_address"></p>
+              <p data-i18n="contacts_actual_address"></p>
+              <p data-i18n="contacts_warehouse_address"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>

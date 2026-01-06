@@ -108,5 +108,11 @@
   "manufacturer_input_email": "Почта",
   "manufacturer_input_message": "Кратко опишите предложение",
   "manufacturer_button_submit": "Отправить заявку",
-  "manufacturer_policy_text": "Я согласен на обработку персональных данных"
+  "manufacturer_policy_text": "Я согласен на обработку персональных данных",
+  "contacts_title": "Контакты для сотрудничества: телефон, email",
+  "contacts_phone": "+7 958 582 14 09",
+  "contacts_email": "info@atv-group.ru",
+  "contacts_legal_address": "Юридический адрес 141006, МОСКОВСКАЯ ОБЛАСТЬ, Г.О. МЫТИЩИ, Г. МЫТИЩИ, ПР-КТ ОЛИМПИЙСКИЙ, ВЛД. 29 СТР. 2, ОФИС 2, ПОМЕЩ. 32",
+  "contacts_actual_address": "Фактический адрес МОСКВА, УЛ. ВЕРХНЯЯ РАДИЩЕВСКАЯ, Д. 4, СТР. 3",
+  "contacts_warehouse_address": "Адрес склада МОСКОВСКАЯ ОБЛАСТЬ, ЛЕНИНСКИЙ ГОРОДСКОЙ ОКРУГ, КАШИРСКОЕ ШОССЕ, 31-Й КИЛОМЕТР, 26"
 }
