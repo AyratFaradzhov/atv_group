@@ -425,9 +425,8 @@
   margin-top: 2px;
 
   background-color: var(--hover-color);
-
-  -webkit-mask-image: url("../images/icons/comfortable-icon.svg");
-  mask-image: url("../images/icons/comfortable-icon.svg");
+  -webkit-mask-image: url("../../images/icons/comfortable-icon.svg");
+  mask-image: url("../../images/icons/comfortable-icon.svg");
 
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -446,18 +445,18 @@
 }
 
 .about-atv__list-item:nth-child(2)::before {
-  -webkit-mask-image: url("../images/icons/pen-icon.svg");
-  mask-image: url("../images/icons/pen-icon.svg");
+  -webkit-mask-image: url("../../images/icons/pen-icon.svg");
+  mask-image: url("../../images/icons/pen-icon.svg");
 }
 
 .about-atv__list-item:nth-child(3)::before {
-  -webkit-mask-image: url("../images/icons/carik-icon.svg");
-  mask-image: url("../images/icons/carik-icon.svg");
+  -webkit-mask-image: url("../../images/icons/carik-icon.svg");
+  mask-image: url("../../images/icons/carik-icon.svg");
 }
 
 .about-atv__list-item:nth-child(4)::before {
-  -webkit-mask-image: url("../images/icons/finger-icon.svg");
-  mask-image: url("../images/icons/finger-icon.svg");
+  -webkit-mask-image: url("../../images/icons/finger-icon.svg");
+  mask-image: url("../../images/icons/finger-icon.svg");
 }
 
 .about-atv__list {
