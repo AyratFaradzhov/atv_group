@@ -16,7 +16,7 @@
 
   min-block-size: clamp(420px, 50vh, 520px);
   border-radius: 30px;
-  background-image: url("../images/about/about-cover.webp");
+  background-image: url("../../images/about/about-cover.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
